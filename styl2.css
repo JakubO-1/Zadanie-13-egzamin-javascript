@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+* {
+    font-family: 'Cambria';
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: rgb(120, 0, 46);
+    color: white;
+    padding: 5px;
+    font-size: 150%;
+    width: 100%;
+    clear: both;
+}
+
+nav {
+    background-color: rgb(173, 20, 87);
+    text-align: left;
+    width: 100%;
+}
+
+#lewy {
+    background-color: Snow;
+    color: OliveDrab;
+    width: 60%;
+    height: 322px;
+    float: left;
+    text-align: left;
+}
+
+#prawy {
+    background-color: rgb(173, 20, 87);
+    width: 40%;
+    height: 322px;
+    float: left;
+}
+
+#prawy img {
+    margin: 40px;
+    padding: 10px;
+}
+
+#prawy img:hover {
+    border: 1px dotted YellowGreen;
+}
+
+a {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: YellowGreen;
+}
+
+table {
+    border: 1px solid OliveDrab;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 1px solid OliveDrab;
+}
